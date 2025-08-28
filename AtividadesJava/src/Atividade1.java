@@ -1,8 +1,8 @@
 public class Atividade1 {
-    public static void main(String[] args){
-        int idade = 16;
-        final int meses_no_ano = 12;
-        double resultado = meses_no_ano * idade;
-        System.out.println("Sua idade em meses é:" + resultado);
+    public static void main(String[] args) {
+        String nome = "Marco Túlio";
+        String cidade = "São Gonçalo do Rio Abaixo";
+        final String PAIS = "Brasil";
+        System.out.println("Olá, eu sou "+nome+", moro em "+cidade+"/"+PAIS);
     }
 }
