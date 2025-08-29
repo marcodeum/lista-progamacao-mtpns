@@ -1,6 +1,12 @@
+import java.util.Scanner;
 public class Atividade7 {
     public static void main(String[] args) {
-        int a = 5; int b = 3; int soma = a+b;
-        System.out.println(soma);
+     Scanner leia = new Scanner(System.in);
+        System.out.println("Dê o valor para a: ");
+        int a = leia.nextInt();
+        System.out.println("Dê o valor para b: ");
+        int b = leia.nextInt();
+     int soma = a + b;
+        System.out.println("a + b = "+soma);
     }
-}
+    }
