@@ -14,19 +14,6 @@ public class Atividade35 {
             if (numero == -1) {
                 break;
             }
-
-            if (primeiroNumero) {
-                maior = numero;
-                primeiroNumero = false;
-            } else if (numero > maior) {
-                maior = numero;
-            }
-        }
-
-        if (primeiroNumero) {
-            System.out.println("Nenhum número foi digitado.");
-        } else {
-            System.out.println("O maior número digitado foi: " + maior);
         }
     }
 }
